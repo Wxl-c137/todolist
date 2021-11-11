@@ -1,10 +1,8 @@
 <template>
     <div class="todo-header">
-<<<<<<< HEAD
-        <input type="text" placeholder="请输入你的任务名称，按回车键确认" @keyup.enter:{todoObj} />
-=======
+        =======
         <input type="text" placeholder="请输入你的任务名称，按回车键确认" @keyup.enter="add" />
->>>>>>> 1b4730ab20d479409ce965d0fb0311cff59b7722
+        >>>>>>> 1b4730ab20d479409ce965d0fb0311cff59b7722
     </div>
 </template>
 
