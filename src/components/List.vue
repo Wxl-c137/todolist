@@ -1,6 +1,6 @@
 <template>
     <ul class="todo-main">
-        <Item />
+        <Item v-for="todoObj in todos" :key="todoObj.id" :todo="todoObj" />
         <Item />
         <Item />
         <Item />
@@ -12,7 +12,16 @@ import Item from './Item'
 
 export default {
     name: 'List',
-    components: { Item }
+    components: { Item },
+    data() {
+        return {
+            todos: [
+                { id: '001', title: '111', done: true },
+                { id: '001', title: '111', done: true },
+                { id: '001', title: '111', done: true }
+            ]
+        }
+    },
 }
 </script>
 
