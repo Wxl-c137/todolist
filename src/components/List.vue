@@ -29,7 +29,7 @@ export default {
 /*main*/
 .todo-main {
     margin-left: 0px;
-    border: 1px solid #ddd;
+    border: 1px solid rgba(100, 53, 175, 0.397);
     border-radius: 2px;
     padding: 0px;
 }
